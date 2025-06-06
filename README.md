@@ -30,4 +30,20 @@ The model is trained on the CIFAR-10 dataset, generating images conditioned on t
 * NumPy
 * `wandb` 
 * `torchmetrics` 
-* `torch-fidelity` 
+* `torch-fidelity`
+## References
+BigGAN-deep
+Andrew Brock, Jeff Donahue, Karen Simonyan.
+"Large Scale GAN Training for High Fidelity Natural Image Synthesis"
+International Conference on Learning Representations (ICLR), 2019
+[Paper](https://arxiv.org/abs/1809.11096v2)
+
+Augmentation-Aware Self-Supervision for Data-Efficient GAN Training
+Liang Hou, Qi Cao, Huawei Shen, Siyuan Pan, Xiaoshuang Li, Xueqi Cheng
+Neural Information Processing Systems, 2022
+[Paper](https://arxiv.org/pdf/2205.15677)
+
+Deceive D: Adaptive Pseudo Augmentation for GAN Training
+Liming Jiang, Bo Dai, Wayne Wu, Chen Change Loy
+Neural Information Processing Systems, 2021
+[Paper](https://arxiv.org/abs/2111.06849)
