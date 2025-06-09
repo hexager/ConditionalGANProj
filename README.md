@@ -1,4 +1,4 @@
-# BigGAN-Deep Lite: Conditional Image Generation with AugSelf & Pseudo-Augmentation
+# Synergistic Regularization for Data-Efficient GANs
 
 This project implements a simplified, lightweight version of the BigGAN-Deep architecture in PyTorch for conditional image generation. It focuses on stable and high-quality image synthesis, incorporating advanced training techniques like **AugSelf** (a self-supervised augmentation for the discriminator) and **Pseudo-Augmentation (APA)** to enhance performance, particularly when working with limited datasets.
 The model is trained on the CIFAR-10 dataset, generating images conditioned on their respective classes.
